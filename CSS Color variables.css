@@ -1,0 +1,111 @@
+/* Use this variables in css like that : 
+    
+  .element {
+   color: var(--primary-color);
+   background-color: var(--secondary-color);
+   font-family: var(--heading-font);
+
+}
+
+*/
+
+                                   /* Colors */
+
+:root {
+    /* Primary Colors */
+    --primary-color: #3498db;
+    --primary-dark: #2980b9;
+    --primary-light: #5fa8d3;
+  
+    /* Secondary Colors */
+    --secondary-color: #2ecc71;
+    --secondary-dark: #27ae60;
+    --secondary-light: #58d68d;
+  
+    /* Text Colors */
+    --text-color: #333;
+    --text-light: #666;
+    --text-muted: #999;
+    --text-normal:white;
+  
+    /* Background Colors */
+    --background-color: #f5f5f5;
+    --background-dark: #e0e0e0;
+    --background-light: #fcfcfc;
+    --background-dark-mode:#202124;
+  
+    /* Accent Colors */
+    --accent-color: #e67e22;
+    --accent-dark: #d35400;
+    --accent-light: #f0a05f;
+  
+    /* Border Colors */
+    --border-color: #ccc;
+    --border-dark: #999;
+    --border-light: #ddd;
+    --border-dark2: #121212;
+
+  
+    /* Link Colors */
+    --link-color: #3498db;
+    --link-hover-color: #2980b9;
+
+    /* Navbar Colors */
+    --navbar-bg-color: #333; /* Background color of the navbar */
+    --navbar-text-color: #fff; /* Text color of the navbar */
+    --navbar-link-color: #fff; /* Color of navbar links */
+    --navbar-link-hover-color: #ffd700; /* Color of navbar links on hover */
+    --navbar-border-color: #2c3e50; /* Border color of the navbar */
+
+    /* Dropdown Colors */
+    --dropdown-bg-color: #2c3e50; /* Background color of dropdown */
+    --dropdown-text-color: #fff; /* Text color of dropdown items */
+    --dropdown-link-hover-color: #ffd700; /* Color of dropdown links on hover */
+
+    /* Button Colors */
+    --button-bg-color: #3498db; /* Background color of the button */
+    --button-text-color: #fff; /* Text color of the button */
+    --button-hover-bg-color: #2980b9; /* Background color of the button on hover */
+    --button-border-color: #2980b9; /* Border color of the button */
+
+
+  
+
+
+  /*---------------------------------------------------------------*/
+
+                                      /* Others */
+
+    /* H1 Styles */
+    --h1-font-family: 'Helvetica Neue', sans-serif;
+    --h1-font-size: 2.5rem;
+    --h1-font-weight: bold;
+    --h1-text-color: #333;
+    --h1-line-height: 1.2;
+    --h1-margin-bottom: 20px;                                  
+
+    /* Fonts */
+    --main-font: 'Helvetica Neue', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+
+    /* Image Styles */
+    --img-max-width: 100%; /* Maximum width of the image */
+    --img-border-radius: 4px; /* Border radius for rounded corners */
+    --img-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for images */
+
+    /* Spacing */
+    --base-spacing: 16px;
+    --padding-small: 8px;
+    --padding-medium: 16px;
+    --padding-large: 24px;
+
+    /* Border Radius */
+    --border-radius: 4px;
+
+    /* Box Shadows */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Transitions */
+    --transition-duration: 0.3s;
+}
+  
